@@ -10,9 +10,6 @@ public class rotate_list {
         swap(a,0,k-1);
         swap(a,k,n-1);
 
-        for (int i = 0; i < n; i++) {
-            System.out.print(a[i]);
-        }
 
     }
 
@@ -76,9 +73,9 @@ public class rotate_list {
 
     public static void main(String[] args) {
 
-        int[] a = {1,2,3,4,5,6,7};
+        int[] a = {1,2,3,4,5};
 
-        int k = 3;
+        int k = 4;
 
         rotate(a,k);
 
